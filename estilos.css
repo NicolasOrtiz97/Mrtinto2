@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 .pf{
 background-color: black;
@@ -13,7 +14,97 @@ height: 106px;
     top: 20%;
 }
 .ps{
-    background-image:url('./asset/fondoPC.png')  ;
-    width: 100%;
-    height: auto;
+    height: 521px;
+    background-image:url("./asset/fondoPC.png");
+   }
+.buto{
+    display: table-caption;
+    position: relative;
+    left: 495%;
+    top: -276px;
+}
+button{
+    width: 208px;
+    height: 53px;
+    background-color: #E61664;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    
+}
+.bt2{
+    display: flex;
+    text-decoration: none;
+    width: 208px;
+    height: 53px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.t1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: right;
+    position: relative;
+    right: 30%;
+    top: 77px;
+    color: white;
+}
+.t2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: right;
+    position: relative;
+    right: 30%;
+    top: 61px;
+    color: #E61664;
+    line-height: 84px;
+}
+.t3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: right;
+    position: relative;
+    right: 30%;
+    top: 63px;
+    color: black;
+    font-style: italic;
+}
+.y1{
+    margin: 10px;
+}
+.yu{
+    position: relative;
+    top:34%;
+}
+button:active{
+    background-color: #F995BE;
+    border-style: none;
+}
+button:hover{
+    background-color: #F995BE;
+}
+.bt2:hover{
+    background-color: #EFEEEE;
+}
+.bt2:active{
+    background-color: #EFEEEE;
+}
+a{
+    text-decoration: none;
 }
