@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pf{
+background-color: black;
+width: 100%;
+height: 106px;
+}
+.pfi{
+    position: relative;
+    left: 45%;
+    top: 20%;
+}
+.ps{
+    background-image:url('./asset/fondoPC.png')  ;
+    width: 100%;
+    height: auto;
+}
