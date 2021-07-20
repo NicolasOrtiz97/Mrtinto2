@@ -3,6 +3,115 @@
     margin: 0;
     overflow: hidden;
 }
+@media screen and (max-width: 1024px){
+    .pf{
+    background-color: black;
+    width: 100%;
+    height: 106px;
+    }
+    .pfi{
+        position: relative;
+        left: 45%;
+        top: 20%;
+    }
+    .ps{
+        height: 521px;
+        background-image:url("./asset/fo1024.png");
+       }
+    .buto{
+        display: block;
+        position: relative;
+        left: 75%;
+        top: -263px;
+        
+    }
+    button{
+        width: 208px;
+        height: 53px;
+        background-color: #E61664;
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        border-style: none;
+        border-radius: 5px;
+        margin-top: 22px;
+        margin-bottom: 13px;
+        cursor: pointer;
+        display: block;
+        
+    }
+    .bt2{
+        display: flex;
+        text-decoration: none;
+        width: 208px;
+        height: 53px;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        font-weight: 800;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        border-style: none;
+        border-radius: 5px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+    .t1 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: 800;
+        text-align: right;
+        position: relative;
+        right: 30%;
+        top: 77px;
+        color: white;
+    }
+    .t2 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: 800;
+        text-align: right;
+        position: relative;
+        right: 30%;
+        top: 61px;
+        color: #E61664;
+        line-height: 84px;
+    }
+    .t3 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: 300;
+        text-align: right;
+        position: relative;
+        right: 30%;
+        top: 63px;
+        color: black;
+        font-style: italic;
+    }
+    .y1{
+        margin: 10px;
+    }
+    .yu{
+        position: relative;
+        top:34%;
+    }
+    button:active{
+        background-color: #F995BE;
+        border-style: none;
+    }
+    button:hover{
+        background-color: #F995BE;
+    }
+    .bt2:hover{
+        background-color: #EFEEEE;
+    }
+    .bt2:active{
+        background-color: #EFEEEE;
+    }
+    a{
+        text-decoration: none;
+    }
+    }
 @media screen and (max-width: 1366px){
 .pf{
 background-color: black;
@@ -112,7 +221,7 @@ a{
     text-decoration: none;
 }
 }
-@media screen and (min-width: 1366px){
+@media screen and (max-width: 1440px){
     .pf{
     background-color: black;
     width: 100%;
@@ -125,7 +234,7 @@ a{
     }
     .ps{
         height: 521px;
-        background-image:url("./asset/fondoPC.png");
+        background-image:url("./asset/fo1440.png");
         
        }
     .buto{
@@ -222,4 +331,114 @@ a{
         text-decoration: none;
     }
     }
-    
+@media screen and (max-width: 1920px){
+        .pf{
+        background-color: black;
+        width: 100%;
+        height: 106px;
+        }
+        .pfi{
+            position: relative;
+            left: 45%;
+            top: 20%;
+        }
+        .ps{
+            height: 521px;
+            background-image:url("./asset/fo1920.png");
+            
+           }
+        .buto{
+            display: block;
+            position: relative;
+            left: 75%;
+            top: -263px;
+            
+        }
+        button{
+            width: 208px;
+            height: 53px;
+            background-color: #E61664;
+            color: white;
+            font-size: 16px;
+            font-weight: 300;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            border-style: none;
+            border-radius: 5px;
+            margin-top: 22px;
+            margin-bottom: 13px;
+            cursor: pointer;
+            display: block;
+            
+        }
+        .bt2{
+            display: flex;
+            text-decoration: none;
+            width: 208px;
+            height: 53px;
+            background-color: white;
+            color: black;
+            font-size: 12px;
+            font-weight: 800;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            border-style: none;
+            border-radius: 5px;
+            margin-top: 13px;
+            margin-bottom: 13px;
+        }
+        .t1 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 80px;
+            font-weight: 800;
+            text-align: right;
+            position: relative;
+            right: 30%;
+            top: 77px;
+            color: white;
+        }
+        .t2 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 80px;
+            font-weight: 800;
+            text-align: right;
+            position: relative;
+            right: 30%;
+            top: 61px;
+            color: #E61664;
+            line-height: 84px;
+        }
+        .t3 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 80px;
+            font-weight: 300;
+            text-align: right;
+            position: relative;
+            right: 30%;
+            top: 63px;
+            color: black;
+            font-style: italic;
+        }
+        .y1{
+            margin: 10px;
+        }
+        .yu{
+            position: relative;
+            top:34%;
+        }
+        button:active{
+            background-color: #F995BE;
+            border-style: none;
+        }
+        button:hover{
+            background-color: #F995BE;
+        }
+        .bt2:hover{
+            background-color: #EFEEEE;
+        }
+        .bt2:active{
+            background-color: #EFEEEE;
+        }
+        a{
+            text-decoration: none;
+        }
+        }
+            
