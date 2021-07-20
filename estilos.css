@@ -499,9 +499,7 @@
     }
     }
 @media screen and (max-width: 500px){
-    *{
-        overflow: visible;
-    }    
+        
     .pf{
         background-color: black;
         width: 100%;
