@@ -30,7 +30,7 @@
         display: block;
         position: relative;
         left: 75%;
-        top: -263px;
+        top: -392px;
         
     }
     button{
@@ -44,7 +44,7 @@
         border-style: none;
         border-radius: 5px;
         margin-top: 22px;
-        margin-bottom: 13px;
+        margin-bottom: 31px;
         cursor: pointer;
         display: block;
         
@@ -244,6 +244,13 @@
         a{
             text-decoration: none;
         }
+        .eloi{
+            width: 100%;
+            height: 200px;
+            background-color: #F49703;
+            position: relative;
+            left: 0%;
+        }
         }
 @media screen and (max-width: 1366px){
             .fin{
@@ -357,6 +364,13 @@
             }
             a{
                 text-decoration: none;
+            }
+            .eloi{
+                width: 100%;
+                height: 200px;
+                background-color: #F49703;
+                position: relative;
+                left: 0%;
             }
             }
 @media screen and (max-width: 1024px){
@@ -473,6 +487,13 @@
     }
     a{
         text-decoration: none;
+    }
+    .eloi{
+        width: 100%;
+        height: 200px;
+        background-color: #F49703;
+        position: relative;
+        left: 0%;
     }
     }
 @media screen and (max-width: 375px){
