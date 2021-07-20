@@ -149,6 +149,7 @@
             height: 661px;
             background-image:url("./asset/fo1440.png");
             width: auto;
+            background-repeat: no-repeat;
             
            }
         .buto{
